@@ -1,0 +1,207 @@
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Popins',sans-serif;
+    box-sizing: border-box;
+   
+}
+
+body{
+    background: #000;
+    color: #fff;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("https://assets.nflxext.com/ffe/siteui/vlv3/259422c0-c399-4047-baf2-44bac5612ac1/34d986d1-1d38-46de-9080-fd80292cd27b/PK-en-20240819-POP_SIGNUP_TWO_WEEKS-perspective_WEB_caccd7de-240c-460b-bc6c-faccdd004213_small.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 10px 8%;
+    position: relative;
+
+}
+.logo-img{
+    width: 18rem;
+    cursor:pointer;
+    opacity: 0.63;
+    border-radius:  30%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.btn{
+    font-size: larger;
+border-radius: 5px;
+border: 0;
+outline: 0;
+background: #db0001;
+color: #fff;
+padding: 0.5rem 1.2rem;
+margin-left: 5px;
+height: 80px;
+width: 180px;
+font-size: large;
+align-items: center;
+text-align: center;
+
+}
+.btn2{
+    font-size: 30px;
+}
+.lang-btn{
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    display: inline-flex;
+    
+    border: 2px solid #fff;
+    background: transparent;
+    align-items: center;
+  
+}
+.header-body{
+    width:100%;
+    height: 800px;
+    text-align: center;
+    align-items: center;
+    padding-top: 250px;
+    line-height: 80px;
+   
+}
+.input-place{
+    background-color: #000;
+    opacity: 0.7;
+    padding: 0.2rem 1rem;
+    height: 90px;
+    width: 30rem;
+    border: 0.5px solid #fff;
+    border-radius: 7px;
+    font-size: larger;
+    font-size: 30px;
+    margin-right: 0.5rem;
+
+}
+.email-btn{
+    width: 25rem;
+    height: 90px;
+    font-weight: bold;
+font-size: 30px;
+border-radius: 7px;
+border: 0;
+outline: 0;
+background: #db0001;
+color: #fff;
+padding: 0.5rem 1.2rem;
+margin-left: 5px;
+}
